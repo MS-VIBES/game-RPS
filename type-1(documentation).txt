@@ -1,0 +1,72 @@
+						ROCK, PAPER AND SCISSORS
+
+===============================================type-1(using if-elif-else)=======================================================================
+
+PRE-REQUISITE:-
+
+[Random Library]
+- what is library?
+ANS= It is a collection of related modules. It contains bundle of codes that can be used repeatedly in different programs.
+- What is the full form of PYPI?
+ANS= Python package index.
+- What is Random variable?
+ANS= It is the built in module that you can use to make any random things (values/input/sequences) etc. It is the most used libraray in python for gaming.
+
+***Inside library there are many methods which can be used according to the need****
+
+- What are methods?
+ANS= They are reusable piece of code that can be called/ invoked at any point in the program.
+It is further of three types:- 1. Class method. 2. Static method. 3. Instance method.
+
+- Which methods can be used in this game?
+ANS= few of the most used methods are:-
+1. RANDOM:-  picks up any random float number between 0 and 1.
+2. SEED:-  initializes the random  no.  generator.
+3. CHOICE:- Returns a random selection from a given sequence.
+4. CHOICES:- Returns a list with a random slecetion from the given sequence.
+
+- What are statements in Python?
+ANS= A statement is an instruction that the Python interpreter can execute. So, in simple words, we can say anything written in Python is a statement. There are mainly four types of statements in Python, print statements, Assignment statements, Conditional statements, Looping statements. The print and assignment statements are commonly used.
+
+- Under What category if statements lie? Elaborate.
+ANS= Compound statements contain (groups of) other statements; they affect or control the execution of those other statements in some way.The compound statement includes the conditional and loop statement.
+
+	*if statement: It is a control flow statement that will execute statements under it if the condition is true. Also kown as a conditional 			statement.
+	*while statements: The while loop statement repeatedly executes a code block while a particular condition is true. Also known as a 					looping statement.
+	*for statement: Using for loop statement, we can iterate any sequence or iterable variable. The sequence can be string, list, 			dictionary,set, or tuple. Also known as a looping statement.
+	*try statement: specifies exception handlers.
+			with statement: Used to cleanup code for a group of statements, while the with statement allows the execution of 			initialization and finalization code around a block of code.
+- Explain If-ELif-else Statement?
+ANS= The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
+	The else keyword catches anything which isn't caught by the preceding conditions.
+	A Python if statement evaluates whether a condition is equal to true or false.
+
+- What are lists?
+ANS= Lists are used to store multiple items in a single variable.
+Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage. Lists are created using square brackets. List items are ordered, changeable, and allow duplicate values.
+
+-What are conditions in python?
+ANS= Equals: a == b
+	Not Equals: a != b
+	Less than: a < b
+	Less than or equal to: a <= b
+	Greater than: a > b
+	Greater than or equal to: a >= b
+(***there are many others conditions too***)
+================================================================================================================================================[LOGIC]:- 
+no of cases possible while palying the game:3*3=9
+
+COMPUTER		USER
+Scissors		Scissors, Stone, Paper
+Stone			Scissors, Stone, Paper
+Paper			Scissors, Stone, Paper
+
+Pattern of taking cases:
+1. DRAW CASES:- 3
+"stone-stone" , "paper-Paper", "scissors-Scissors"
+2. Stone cases= 2
+"stone-Paper", "stone-Scissors"
+3. Paper cases=2
+"Paper-stone", "paper-Scissors"
+4. Scissors cases=2
+"scissors-Stone", "scissors-Paper"

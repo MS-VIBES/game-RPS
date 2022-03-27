@@ -1,0 +1,45 @@
+------------------------------------------------------------------ROCK, PAPER AND SCISSORS -----------------------------------------------------
+1....Importing all the required libraries.
+
+2.....Initiating the window.
+
+3.....Adding the images.
+
+4....Making Label to display images (default images)
+
+5....Making the score board for user & computer.
+It has two sides (RHS)=Player, (LHS)=user.
+
+6....Adding the indicators.
+
+7....Message display Label(Win/Loose)
+
+8....Adding the buttons
+Must add lambda function in comment section , inorder to connect these buttons to choices uodated by the user and computer, connect this lambda function with choice_update function i.e (10-E)
+
+9....Execute the window.
+
+10...Making the functions and then connecting them.======> choice_update(a)
+ function A:- Function for message display ====> msg_update.
+ function B:-  function for computer score update, this will be connected to Computer_score_update===> computer_update.
+ function C:- function for player score update , this will be connected to player_score_board========> player_score_update.
+ function D:- function for deciding the result (p as player, c as computer), this is the main logic. it has further 4 cases possible which intern are divided into 2cases.  case no - 1/4 I. p==c: (tie)===> call A. 
+				  case no- 2/4 II. p==rock :- (has further 2 cases) (i) c==paper ===> call A (computer wins), call B for +1
+				   (ii) c==scissors ===> call A (player wins), call C for +1
+similaly other two cases will be made .
+
+ function E:- connecting image to choices. 
+      choices has further two parts-----> I. player(a) a==rock, this will display rock2 images i.e calls label_player and same for the other 2.
+       					  II. computer random selection via randint through list i.e it displays image via Label_comp.
+list craetes as to_select=["rock", "paper", "scissors"].
+
+
+
+NOTE:- make sure to import pillow module to your tkinter so that all kind of images can be display.
+importing steps:- cd appdata/cd local/cd programs/cd python/cd python 39/cd scripts or (cd lib/cd site- packages)
+inorder to go back cmd= cd.. ( you will go one step back)
+
+
+
+
+

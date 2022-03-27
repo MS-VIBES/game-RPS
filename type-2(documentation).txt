@@ -1,0 +1,136 @@
+						ROCK, PAPER AND SCISSORS
+
+===============================================type-1(using if-elif-else & while loop)==========================================================
+
+PRE-REQUISITE:-
+
+[Random Library]
+- what is library?
+ANS= It is a collection of related modules. It contains bundle of codes that can be used repeatedly in different programs.
+
+- What is the full form of PYPI?
+ANS= Python package index.
+
+- What is Random variable?
+ANS= It is the built in module that you can use to make any random things (values/input/sequences) etc. It is the most used libraray in python for gaming.
+
+***Inside library there are many methods which can be used according to the need****
+
+- What are methods?
+ANS= They are reusable piece of code that can be called/ invoked at any point in the program.
+It is further of three types:- 1. Class method. 2. Static method. 3. Instance method.
+
+- Which methods can be used in this game?
+ANS= few of the most used methods are:-
+1. RANDOM:-  picks up any random float number between 0 and 1.
+2. SEED:-  initializes the random  no.  generator.
+3. CHOICE:- Returns a random selection from a given sequence.
+4. CHOICES:- Returns a list with a random slecetion from the given sequence.
+
+- What are statements in Python?
+ANS= A statement is an instruction that the Python interpreter can execute. So, in simple words, we can say anything written in Python is a statement. There are mainly four types of statements in Python, print statements, Assignment statements, Conditional statements, Looping statements. The print and assignment statements are commonly used.
+
+- Under What category if statement and while loop  lie? Elaborate.
+ANS= Compound statements contain (groups of) other statements; they affect or control the execution of those other statements in some way.The compound statement includes the conditional and loop statement.
+
+	*if statement: It is a control flow statement that will execute statements under it if the condition is true. Also kown as a conditional 			statement.
+	*while statements: The while loop statement repeatedly executes a code block while a particular condition is true. Also known as a 					looping statement.
+	*for statement: Using for loop statement, we can iterate any sequence or iterable variable. The sequence can be string, list, 						dictionary,set, or tuple. Also known as a looping statement.
+	*try statement: specifies exception handlers.
+			with statement: Used to cleanup code for a group of statements, while the with statement allows the execution of 			initialization and finalization code around a block of code.
+
+- Explain If-ELif-else Statement?
+ANS= The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".
+	The else keyword catches anything which isn't caught by the preceding conditions.
+	A Python if statement evaluates whether a condition is equal to true or false.
+
+- What are lists?
+ANS= Lists are used to store multiple items in a single variable.
+Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage. Lists are created using square brackets. List items are ordered, changeable, and allow duplicate values.
+
+-What are conditions in python?
+ANS= Equals: a == b
+	Not Equals: a != b
+	Less than: a < b
+	Less than or equal to: a <= b
+	Greater than: a > b
+	Greater than or equal to: a >= b
+(***there are many others conditions too***)
+
+-What are Counter variables?
+ANS= In simple words, a counter variable is a variable that keeps track of the number of times a specific piece of code is executed. The counter variable is declared and used in the same way as the normal variables are declared and used.
+
+-What is For loop in python? Give its syntax.
+ANS= A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string). This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages. With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.
+
+EXAMPLE:- fruits = ["apple", "banana", "cherry"]
+		   for x in fruits:
+  			print(x)
+-What is range function?
+ANS= To loop through a set of code a specified number of times, we can use the range() function,
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+
+EXAMPLE:- for x in range(6):
+  		print(x)
+***Note that range(6) is not the values of 0 to 6, but the values 0 to 5.***
+
+-What are functions in python?
+ANS= A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.
+
+-What is While loop in python?
+ANS= With the while loop we can execute a set of statements as long as a condition is true.
+	With the break statement we can stop the loop even if the while condition is true.
+	With the else statement we can run a block of code once when the condition no longer is true.
+
+-What is While true loop in python?
+ANS= The "while true" loop in python runs without any conditions until the break statement executes inside the loop. To run a statement if a python while loop fails, the programmer can implement a python "while" with else loop.
+
+-What does "\n" and "\t" means?
+ANS= In Python strings, the backslash "\" is a special character, also called the "escape" character. It is used in representing certain whitespace characters: "\t" is a tab, "\n" is a newline, and "\r" is a carriage return.
+
+-What are operators in python?
+ANS= Operators are used to perform operations on variables and values.
+	Python divides the operators in the following groups:
+
+		Arithmetic operators
+		Assignment operators
+		Comparison operators
+		Logical operators
+		Identity operators
+		Membership operators
+		Bitwise operators
+================================================================================================================================================[OUTPUT NEEDED]:- 
+
+hello...! welcome to the game ------------->A.
+
+CHOICES:- 
+1. Stone
+2. Paper
+3. Scissors------------------------------->B.
+Choose your options:- 
+
+(For example:- ) Stone vs Scissors-------->C.
+
+		HUMAN WINS---------------->D.
+
+Human Score:- 1 		Computer Score:- 0--------->E.
+
+Chances left:- 4----------------------------------------->F
+
+(-----repeat the above game 5 times)------>G.
+
+At the end :- 
+
+Concluding statement as "human beats computer by:-2"------>H.
+
+[LOGIC APPLIED IN THE OUTPUT]
+
+A. use print statement.
+B. Again use print statement and n string to add the text in next line whenever necessary. use if else statement and while loop to code the logic of game.  Ask for the input as human 
+C. Give the output as human VS Computer by initializing the human and computer.
+D. give the result by storing it into a new empty variable result and make it print at the end.
+E.Start the counters of human and computer score board and make it increase accordingly .
+F. Also start the reverse counter of chances and make it decrease accordingly after every chance.
+G. in order to repeat the game 5 times it must lie in for loop.with range 0 to 5.
+H.Add yet another if-elif-else condition to specify what to print if computer wins, human wins or the match comes out to be draw using operators.
+ 

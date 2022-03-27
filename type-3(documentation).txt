@@ -1,0 +1,98 @@
+---------------------ROCK,PAPER AND SCISSORS (using TKinter A)----------------------------------------------
+Part A (importing the required libraries)
+
+1.....from tkinter import *
+EXPLANATION:- Tkinter of python is used as GUI, adding *(asteriks) means you want to import all the methods, variables....etc in a way so you don't need to prefix then when using them.
+
+2......from random import randint
+EXPLANATION:- It is  a built in module that you can use to make random numbers. It has a lot of set modules. One which we have imported is randint()= which returns the number between the given range().
+
+3......from tkinter import ttk.
+EXPLANATION:- ttk stands for tkinter themed widgets.
+Following ttk widgets replace the tkinter widgets with the same name:- 1. Button, Checkbutton, Entry, Frame, Label, LabelFrame, Menubutton, PanedWindow, Radiobutton, Scale, Scrollbar, Spinbox.
+following are the new & specific widgets to ttk:- combobox, Notebook, Progressbar, seperator, Sizebag, Trueevent.
+
+EG:- just like CSS is used to style HTML same as ttk is used to style tkinter widgets.
+
+Part B (starting the window)
+
+1.....window=Tk()
+EXPLANATION:- it initiates the tkinter window, you can specify your own tkinter window by giving variable name to it.EG:= its window here
+
+2....window.title("Enter your name here")
+EXPLANATION:- syntax used to add title.
+
+3....window.iconbitmap(" add the location of your icon...icon.ico")
+EXPLANATION:- this syntax is used to add icon to the top left of your screen. you need to convert your image into the icon using ICO CONVERTER.
+
+4....window.geometry("domension x dimension")
+EXPLANATION:- this syntax gives default size to your screen when it first opens.
+
+Part B (adding the widgets)
+
+1......window.config(bg="darkred")
+EXPLANATION:- configure/config is used to access an object's attributes after its installation.
+
+2.....defining Pictures
+EXPLANATION:- add pictiures in its respective variables using PhotoImage synatx. Make sure to use "\\" instaed of "\" as this may cause the use of escape character by default while giving the image path. make sure your image is in png format.
+
+3....Making the list of the images.
+EXPLANATION:- this is done so that one images can be indexed for picking up. Also, after this we will implement randint b/w 0-2, to choose the random integer.
+
+4.....Uaing label widget to add the images. 
+EXPLANATION:- It takes two parameters:- 1. master = which includes parent window. 2. options= which include key value pairs seperated by commas 
+Here we have used pady for alignment of images.
+
+5.....adding a user choice box.
+EXPLANATION:- here we will use conbobox from ttk and add its one of the widget. With name= user_btn2
+
+6.....creating a spin button using button widget from tkinter and adding its features. with name= btn1
+
+7.....Adding label to show the results.with name= Result_label from tkinter and joining it with the logic.
+
+================================================================================================================================================
+we have already mentioned in the list of img_list =["ROCK","PAPER","SCISSORS"] as 0, 1, 2 respectively.
+Then use get method to add the value name like ROCK, PAPER and SCISSORS. then assign a new variable & convert it into number's creating a button.
+
+================================================================================================================================================
+MAIN LOGIC.
+
+there will be total 3 cases which further will have 3 cases. 
+case1:- when user picks up rock= i.e user_choice_value==0
+It has further 3 cases.    A. Computer picks img_ no=0(ROCK) then the result _label.configure(text="Tie")
+			   B. Computer picks img_ no=0(PAPER) then the result _label.configure(text="loose")
+			   C. Computer picks img_ no=0(SCISSORS) then the result _label.configure(text="win")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
